@@ -19,3 +19,22 @@ ssh root@
 git clone htttp//github.com/[user]
 ./init.sh
 
+
+
+1) GNU/linux (user)
+2) Gnu/ linux root 
+- install 
+-VM ( virtual box)
+-cloud (digital ocean)
+3) github.com
+-gitshell -> créer dépôt
+-git
+-tutelli
+-Eclipse
+
+SSH
+Cryptographie asymétrique : clé privé, clé publique
+SSH : secure shell
+On se connecte de moins en mois avec le mot de passe et plus avec la clé publique
+
+
