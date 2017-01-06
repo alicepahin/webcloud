@@ -37,5 +37,7 @@ Cryptographie asymétrique : clé privé, clé publique
 SSH : secure shell
 On se connecte de moins en mois avec le mot de passe et plus avec la clé publique
 
-test
+ligne de commande: 
+ssh-keygen
+
 
