@@ -82,8 +82,8 @@ chmod : change mode : changer les permissions du fichier
 ~$ export NOM = "user"  (importer une valeur a une variable)
 ~$ echo $NOM
 
-#!/bin/bash
-echo$1
+ex    #!/bin/bash
+      echo$1
 
 < ( ce signe veut dire aller prendre le contenu du fichier et le donner comme parametre)
 
