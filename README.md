@@ -96,3 +96,6 @@ sortie standard : stdout ( outpout)
 ~$ prog.sh " user1" > noms.text hellouser1~$ echo $NOM
 
 >> (effacer le fichier d'avant)
+
+se connecter en ssh : 
+ssh root@178.62.53.220
