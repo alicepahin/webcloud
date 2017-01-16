@@ -124,3 +124,7 @@ ecrire echo"Hello"$*
    #send the list of process to /var/?/index.html
    ps> /var/www/html/index.html
    set -eu
+   
+   pipe , find , grape, cd, change mode , change owner , sort
+   écriver en une ligne de commande créer un fichier et trier le contenue de ce fichier en ordre alphabétique inverse
+   définition : infrastruce as a service , PAAS, SAAS
