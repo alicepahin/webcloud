@@ -99,3 +99,28 @@ sortie standard : stdout ( outpout)
 
 se connecter en ssh : 
 ssh root@178.62.53.220
+
+password : alicepahin
+
+test 
+nano test.sh (créer un fichier)
+ctrl X pour sortir
+ls -l test.sh 
+chmod +x test.sh (rendre fichier executable)
+ls -l test.sh
+
+dans nano test.sh 
+ecrire echo"Hello"$*
+./test.sh "Alice"  
+ 
+ réponse : HelloAlice
+   github -> deploy -> #!/bin/bash
+   .# replace xxx.... by the IP adress of your droplet
+   tail -n +3 "$0"
+   .# update the server
+   apt-get updtae
+   .#upgrade
+   .#install nginx (apt-get install nginx)
+   #send the list of process to /var/?/index.html
+   ps> /var/www/html/index.html
+   set -eu
