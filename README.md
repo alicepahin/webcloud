@@ -3,6 +3,28 @@
 test
 test1
 
+Comment utiliser le terminal pour commit : 
+1- se connecter en ssh
+ssh root@178.62.53.220
+2- Se positionner dans le répertoire cd git/webcloud/
+3- Modifier un fichier
+4- git status( afficher les fichiers a commit)
+5-git add * ( ajouter tout les fichiers)
+6- Commit : git commit -m’message de commit’
+7- Push : git push origin master
+8- vérifier sur github.com les modifications. 
+
+Comment deployer un site web?
+1- se déconnecter ( logout)
+2- se déplacer dans le bon repertoire (ls pour afficher les dossier )
+cd git/webcloud
+3-la commande ls -l affiche les fichiers présents dans le repertoire
+4-se connecter au serveur et lancer deploy.sh
+ssh root@178.62.53.220 < deploy.sh
+5- vérifier la sortie en allant sur l’adresse 178.62.53.220
+
+note de cours : 
+
 git : branche master 
 cloner : tout ce qui est dans master met le dans l'ordi
 quand on sauve ses fichiers : espace de travail
