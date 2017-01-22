@@ -50,6 +50,8 @@ script de déploiement
 ansible
 
 
+<<<<<<< HEAD
+=======
 Permissions :
 Utilisateur peut appartenir à plusieurs groupes. A chaqune des ces trois catégories correspondent des permissions
 r=read 4
@@ -128,3 +130,5 @@ ecrire echo"Hello"$*
    pipe , find , grape, cd, change mode , change owner , sort
    écriver en une ligne de commande créer un fichier et trier le contenue de ce fichier en ordre alphabétique inverse
    définition : infrastruce as a service , PAAS, SAAS
+
+test
