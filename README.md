@@ -1,51 +1,47 @@
 # webcloud
 
-test
-test1
+(bzg: mettre un descriptif plus général du dépôt ?)
 
-Comment utiliser le terminal pour commit : 
-1- se connecter en ssh
-ssh root@178.62.53.220
+## Comment utiliser le terminal pour committer
+
+1- se connecter en ssh `ssh root@178.62.53.220`
 2- Se positionner dans le répertoire cd git/webcloud/
 3- Modifier un fichier
-4- git status( afficher les fichiers a commit)
-5-git add * ( ajouter tout les fichiers)
-6- Commit : git commit -m’message de commit’
+4- git status (afficher les fichiers a commit)
+5- git add * (ajouter tout les fichiers)
+6- Commit : `git commit -m "message de commit"`
 7- Push : git push origin master
-8- vérifier sur github.com les modifications. 
+8- vérifier sur github.com les modifications.
 
-Comment deployer un site web?
+# Comment deployer un site web?
+
 1- se déconnecter ( logout)
-2- se déplacer dans le bon repertoire (ls pour afficher les dossier )
-cd git/webcloud
-3-la commande ls -l affiche les fichiers présents dans le repertoire
-4-se connecter au serveur et lancer deploy.sh
-ssh root@178.62.53.220 < deploy.sh
+2- se déplacer dans le bon repertoire (ls pour afficher les dossier ) cd git/webcloud
+3- la commande ls -l affiche les fichiers présents dans le repertoire
+4- se connecter au serveur et lancer deploy.sh ssh root@178.62.53.220 < deploy.sh
 5- vérifier la sortie en allant sur l’adresse 178.62.53.220
 
-note de cours : 
+# Note de cours
 
-git : branche master 
-cloner : tout ce qui est dans master met le dans l'ordi
-quand on sauve ses fichiers : espace de travail
-nouveau fichier dans repertoire : avant de comiter ajouter fichier
-comiter : crer une nouvelle version : c1
-push : master doit integrer c1 et c2
-pull: pour se syncrhoniser
-git pull ( précaution)
-format patch : envoyer des patch individuel
-clé publique
-home/[user]/ssh/id_rsa.pub 
-debian8
-ssh root@
-git clone htttp//github.com/[user]
-./init.sh
-
-
+- git : branche master
+- cloner : tout ce qui est dans master met le dans l'ordi
+- quand on sauve ses fichiers : espace de travail
+- nouveau fichier dans repertoire : avant de comiter ajouter fichier
+- comiter : crer une nouvelle version : c1
+- push : master doit integrer c1 et c2
+- pull: pour se syncrhoniser
+- git pull ( précaution)
+- format patch : envoyer des patch individuel
+- clé publique
+- home/[user]/ssh/id_rsa.pub
+- debian8
+- ssh root@
+- git clone htttp//github.com/[user]
+- ./init.sh
 
 1) GNU/linux (user)
-2) Gnu/ linux root 
-- install 
+2) Gnu/ linux root
+- install
 -VM ( virtual box)
 -cloud (digital ocean)
 3) github.com
@@ -59,7 +55,7 @@ Cryptographie asymétrique : clé privé, clé publique
 SSH : secure shell
 On se connecte de moins en mois avec le mot de passe et plus avec la clé publique
 
-ligne de commande: 
+ligne de commande:
 ssh-keygen
 
 Cours 16/01
@@ -68,7 +64,7 @@ Permissions de fichier sur linux
 question des sorties standard
 pipe
 Organisation système de fichier sur linux/unix
-script de déploiement 
+script de déploiement
 ansible
 
 
@@ -121,22 +117,22 @@ sortie standard : stdout ( outpout)
 
 >> (effacer le fichier d'avant)
 
-se connecter en ssh : 
+se connecter en ssh :
 ssh root@178.62.53.220
 
 password : alicepahin
 
-test 
+test
 nano test.sh (créer un fichier)
 ctrl X pour sortir
-ls -l test.sh 
+ls -l test.sh
 chmod +x test.sh (rendre fichier executable)
 ls -l test.sh
 
-dans nano test.sh 
+dans nano test.sh
 ecrire echo"Hello"$*
-./test.sh "Alice"  
- 
+./test.sh "Alice"
+
  réponse : HelloAlice
    github -> deploy -> #!/bin/bash
    .# replace xxx.... by the IP adress of your droplet
@@ -148,7 +144,7 @@ ecrire echo"Hello"$*
    #send the list of process to /var/?/index.html
    ps> /var/www/html/index.html
    set -eu
-   
+
    pipe , find , grape, cd, change mode , change owner , sort
    écriver en une ligne de commande créer un fichier et trier le contenue de ce fichier en ordre alphabétique inverse
    définition : infrastruce as a service , PAAS, SAAS
