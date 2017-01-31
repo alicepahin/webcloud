@@ -4,22 +4,22 @@
 
 ## Comment utiliser le terminal pour committer
 
-1- se connecter en ssh `ssh root@178.62.53.220`
-2- Se positionner dans le répertoire cd git/webcloud/
-3- Modifier un fichier
-4- git status (afficher les fichiers a commit)
-5- git add * (ajouter tout les fichiers)
-6- Commit : `git commit -m "message de commit"`
-7- Push : git push origin master
-8- vérifier sur github.com les modifications.
+1. se connecter en ssh `ssh root@178.62.53.220`
+2. Se positionner dans le répertoire cd git/webcloud/
+3. Modifier un fichier
+4. git status (afficher les fichiers a commit)
+5. git add * (ajouter tout les fichiers)
+6. Commit : `git commit -m "message de commit"`
+7. Push : git push origin master
+8. vérifier sur github.com les modifications.
 
 # Comment deployer un site web?
 
-1- se déconnecter ( logout)
-2- se déplacer dans le bon repertoire (ls pour afficher les dossier ) cd git/webcloud
-3- la commande ls -l affiche les fichiers présents dans le repertoire
-4- se connecter au serveur et lancer deploy.sh ssh root@178.62.53.220 < deploy.sh
-5- vérifier la sortie en allant sur l’adresse 178.62.53.220
+1. se déconnecter (logout)
+2. se déplacer dans le bon repertoire (ls pour afficher les dossier) `cd git/webcloud`
+3. la commande `ls -l` affiche les fichiers présents dans le répertoire
+4. se connecter au serveur et lancer deploy.sh: `ssh root@178.62.53.220 < deploy.sh`
+5. vérifier la sortie en allant sur l’adresse 178.62.53.220
 
 # Note de cours
 
@@ -38,6 +38,8 @@
 - ssh root@
 - git clone htttp//github.com/[user]
 - ./init.sh
+
+## Autre
 
 1) GNU/linux (user)
 2) Gnu/ linux root
@@ -68,8 +70,6 @@ script de déploiement
 ansible
 
 
-<<<<<<< HEAD
-=======
 Permissions :
 Utilisateur peut appartenir à plusieurs groupes. A chaqune des ces trois catégories correspondent des permissions
 r=read 4

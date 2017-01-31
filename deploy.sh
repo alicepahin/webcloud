@@ -1,4 +1,3 @@
-
 # mise à jour de la machine virtuelle
 apt-get update -y
 apt-get upgrade -y
