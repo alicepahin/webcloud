@@ -1,5 +1,4 @@
-
-# mise à jour de la machine virtuelle 
+# mise à jour de la machine virtuelle
 apt-get update -y
 apt-get upgrade -y
 
@@ -12,7 +11,7 @@ apt-get install nginx -y
 # récupérer le contenu HTML de notre dépôt github
 apt-get install git -y
 
-cd /var/www/html -y
+cd /var/www/html
 git clone https://github.com/alicepahin/webcloud.git
 
 cd /var/www/html/webcloud
